@@ -8,4 +8,4 @@ En el archivo application.properties, debes modificar los siguientes parámetros
 
 También, debes cambiar la URL de la base de datos para que coincida con tu configuración. Reemplaza localhost y el esquema tienda con los nombres que tienes en tu base de datos:
 
- `spring.datasource.url=jdbc:mysql://tu_host:3306/tu_esquema?useSSL=false&serverTimeZone=UTC`
+ `spring.datasource.url=jdbc:mysql://tu_host:tu_puerto/tu_esquema?useSSL=false&serverTimeZone=UTC`
