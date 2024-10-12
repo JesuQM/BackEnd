@@ -11,7 +11,7 @@ También, debes cambiar la URL de la base de datos para que coincida con tu conf
  `spring.datasource.url=jdbc:mysql://tu_host:tu_puerto/tu_esquema?useSSL=false&serverTimeZone=UTC`
 
 # Query SQL
- `SELECT
+SELECT
   h.ID,
   i.DESCRIPCION AS Indicador,
   h.FECHA_REGISTRO,
@@ -29,5 +29,5 @@ FROM
   historial_equipo h
   JOIN equipo i ON h.EQUIPO = i.ID_EQUIPO
 ORDER BY
-  h.FECHA_REGISTRO DESC;`
+  h.FECHA_REGISTRO DESC;
 
