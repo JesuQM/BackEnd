@@ -6,9 +6,9 @@ En el archivo application.properties, debes modificar los siguientes parámetros
  `spring.datasource.username=tu_usuario
   spring.datasource.password=tu_contraseña`
 
-También, debes cambiar la URL de la base de datos para que coincida con tu configuración. Reemplaza localhost y el esquema tienda con los nombres que tienes en tu base de datos:
+También, debes cambiar la URL de la base de datos para que coincida con tu configuración. Reemplaza el puerto del localhost y el esquema "tienda" con los nombres que tienes en tu base de datos:
 
- `spring.datasource.url=jdbc:mysql://tu_host:tu_puerto/tu_esquema?useSSL=false&serverTimeZone=UTC`
+ `spring.datasource.url=jdbc:mysql://localhost:tu_puerto/tu_esquema?useSSL=false&serverTimeZone=UTC`
 
 # Query SQL
 
